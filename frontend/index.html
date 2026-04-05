@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🌾 Smart Crop Advisory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌾 Smart Crop Recommendation</h1>
+
+    <div class="form">
+        <input type="number" id="N" placeholder="Nitrogen">
+        <input type="number" id="P" placeholder="Phosphorus">
+        <input type="number" id="K" placeholder="Potassium">
+        <input type="number" id="temperature" placeholder="Temperature">
+        <input type="number" id="humidity" placeholder="Humidity">
+        <input type="number" id="ph" placeholder="pH">
+        <input type="number" id="rainfall" placeholder="Rainfall">
+
+        <button onclick="predict()">Predict Crop</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
